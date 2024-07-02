@@ -1,5 +1,3 @@
-[[toc]]
-
 ## Vim 
 
 ### Vim's philosophy
