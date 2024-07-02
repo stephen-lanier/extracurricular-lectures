@@ -103,44 +103,7 @@ You can get back to normal mode from insert mode by pressing the `ESC` key.
 
 
 ## Regex
-Regular expressions (regex, rhymes with "FedEx") are a powerful text matching tool that are used all around your machine:
-inside Vim, on the command line, and available as a library in all modern programming languages.
-Regex is probably best learned from exercises (see below) and debugging with something like [regex101](https://regex101.com).
+WIP
 
-- `[]` for matching any of a set of characters
-- `()` for matching a specific sequence of characters AND for capturing groups of characters
-- escape chars
-    - `\b` marks word breaks
-    - `\w` marks a word
-    - `\d` marks any digit
-    - `\s` marks any space
-    - `^` marks the beginning of the line and `$` marks the end of the line
-
-### Exercises
-- [RegexOne](https://regexone.com)
-- Explore a book from [Project Gutenberg](https://gutenberg.org), e.g. Shakespeare's collected works
-    - search for words that contain no vowels (e.g., thy, by, etc.)
-    - search for a specific word, e.g. "cat"
-        - how do you ensure you catch all of these: *cat cat. cat? cat\n*
-        - how do you ensure you DON'T catch these:  *catch can't descat*
-
-
-
-## bash fundamentals
-- `find`
-    - `find . -name src -type d` Find all directories named src
-    - `find . -path '*/test/*.py' -type f` Find all python files that have a folder named test in their path
-    - `find . -mtime -1` Find all files modified in the last day
-    - 
-- `cat`, `grep`, `sed`
-- `echo`
-- redirecting and connecting with `<`, `<<`, `>`, `>>`, `|`
-
-### more bash
-- todo script
-    - everything is a string
-    - if else
-    - check for file existence
-    - `chmod`
-    - /usr/local/bin
-    - symlinks
+## Bash fundamentals
+WIP
